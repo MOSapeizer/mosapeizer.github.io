@@ -12,12 +12,12 @@
 
 Here are the articles related to JavaScript:
 
-- [JavaScript Number Limits: Understanding \(2^{53} - 1\)](/docs/javascript/number-limitation.md) - JS 最大數值的設計與問題 
+- [JavaScript Number Limits: Understanding \(2^{53} - 1\)](/javascript/number-limitation) - JS 最大數值的設計與問題 
 
 
 ## Rust Articles
 
 Explore our Rust-related documentation:
 
-- [Getting Started with Rust](/docs/rust/getting-started.md) - [WIP] A beginner's guide to the Rust programming language.
+- [Getting Started with Rust](/rust/getting-started) - [WIP] A beginner's guide to the Rust programming language.
 
