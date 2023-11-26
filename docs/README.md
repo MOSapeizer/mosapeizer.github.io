@@ -1,36 +1,23 @@
-# My Project
+# Documentation Index
 
-Welcome to my GitHub project!
+這個 github page 會紀錄一些最近的疑惑和問題總結，通常是關於 javascript, rust 的內容
 
-## Introduction
+## Table of Contents
 
-This project aims to...
+- [JavaScript Articles](#javascript-articles)
+- [Rust Articles](#rust-articles)
 
-## Features
 
--  Feature 1: ...
--  Feature 2: ...
--  Feature 3: ...
+## JavaScript Articles
 
-## Installation
+Here are the articles related to JavaScript:
 
-To install and run this project, follow these steps:
+- [JavaScript Number Limits: Understanding \(2^{53} - 1\)](/docs/javascript/number-limitation.md) - JS 最大數值的設計與問題 
 
-1. Step 1...
-2. Step 2...
-3. Step 3...
 
-## Usage
+## Rust Articles
 
-1. Step 1...
-2. Step 2...
-3. Step 3...
+Explore our Rust-related documentation:
 
-## Contributing
-
-If you'd like to contribute to this project, please follow the guidelines in [CONTRIBUTING.md](./CONTRIBUTING.md).
-
-## License
-
-This project is licensed under the [MIT License](./LICENSE).
+- [Getting Started with Rust](/docs/rust/getting-started.md) - [WIP] A beginner's guide to the Rust programming language.
 
