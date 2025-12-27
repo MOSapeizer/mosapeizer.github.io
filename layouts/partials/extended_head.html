@@ -1,0 +1,23 @@
+<!-- Tailwind CSS Play CDN (適合開發環境) -->
+<script src="https://cdn.tailwindcss.com"></script>
+
+<!-- 可選：自訂 Tailwind 配置 -->
+<script>
+  tailwind.config = {
+    prefix: 'mz-',
+    // 可以與 Terminal 主題的顏色變數整合
+    theme: {
+      extend: {
+        colors: {
+          'terminal-bg': 'var(--background)',
+          'terminal-fg': 'var(--foreground)',
+          'terminal-accent': 'var(--accent)',
+        },
+        fontFamily: {
+          'mono': ['JetBrains Mono', 'Fira Code', 'Monaco', 'Consolas', 'Ubuntu Mono', 'monospace'],
+        }
+      }
+    }
+  }
+</script>
+

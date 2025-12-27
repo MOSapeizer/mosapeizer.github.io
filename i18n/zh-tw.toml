@@ -1,0 +1,11 @@
+[by]
+other = "作者"
+
+[readingTime]
+one = "閱讀時間：1 分鐘"
+other = "閱讀時間：{{ .Count }} 分鐘"
+
+[wordCount]
+one = "1 個字"
+other = "{{ .Count }} 個字"
+

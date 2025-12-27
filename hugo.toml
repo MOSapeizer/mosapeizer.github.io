@@ -1,0 +1,52 @@
+baseURL = 'https://mossie.dev/'
+languageCode = 'zh-tw'
+defaultContentLanguage = 'zh-tw'
+title = 'Mos 的個人部落格'
+theme = 'terminal'
+
+[pagination]
+  pagerSize = 5
+
+[markup.highlight]
+  noClasses = false
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[author]
+  name = 'Mos'
+  description = '分享想法、經歷和科技雜談'
+
+[params]
+  contentTypeName = 'posts'
+  showMenuItems = 2
+  fullWidthTheme = false
+  centerTheme = false
+  showLanguageSelector = false
+  autoCover = true
+  showLastUpdated = false
+  readingTime = true
+  showToc = true
+
+[languages]
+  [languages.zh-tw]
+    languageName = '繁體中文'
+    title = 'Mos 的個人部落格'
+    subtitle = '分享想法、經歷和科技雜談'
+    keywords = ''
+    copyright = ''
+    menuMore = '顯示更多'
+    readMore = '繼續閱讀'
+    readOtherPosts = '閱讀其他文章'
+    newerPosts = '較新的文章'
+    olderPosts = '較舊的文章'
+    missingContentMessage = '找不到頁面...'
+    missingBackButtonLabel = '返回首頁'
+    minuteReadingTime = '分鐘閱讀'
+    words = '字'
+
+    [languages.zh-tw.params.logo]
+      logoText = 'Mos'
+      logoHomeLink = '/'
+
+    [languages.zh-tw.menu]
