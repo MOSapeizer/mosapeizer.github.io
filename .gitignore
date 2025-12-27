@@ -32,4 +32,4 @@ yarn-error.log*
 # Hugo Modules cache / themes (if using modules or external themes)
 # --------------------------------------------------------------------
 /hugo_modules/
-
+.hugo_build.lock

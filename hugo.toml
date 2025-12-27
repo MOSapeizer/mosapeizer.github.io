@@ -36,7 +36,6 @@ theme = 'terminal'
     keywords = ''
     copyright = ''
     menuMore = '顯示更多'
-    readMore = '繼續閱讀'
     readOtherPosts = '閱讀其他文章'
     newerPosts = '較新的文章'
     olderPosts = '較舊的文章'
@@ -44,6 +43,9 @@ theme = 'terminal'
     missingBackButtonLabel = '返回首頁'
     minuteReadingTime = '分鐘閱讀'
     words = '字'
+
+    [languages.zh-tw.params]
+      readMore = '繼續閱讀'
 
     [languages.zh-tw.params.logo]
       logoText = 'Mos'

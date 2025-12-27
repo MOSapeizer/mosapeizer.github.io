@@ -379,3 +379,8 @@ th,
 button {
   font-weight: 600;
 }
+
+/* Custom container class */
+.container.centered {
+  margin: 0 auto;
+}
