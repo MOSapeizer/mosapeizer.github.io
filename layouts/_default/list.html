@@ -1,0 +1,28 @@
+{{ define "main" }}
+  {{ with .Content }}
+    <div class="index-content">
+      {{ . }}
+    </div>
+  {{ end }}
+  <div class="posts">
+    <ul style="list-style: none; padding: 0;">
+      {{ range .Paginator.Pages }}
+        <li style="margin-bottom: 20px; padding-bottom: 15px; border-bottom: 1px solid color-mix(in srgb, var(--accent) 20%, transparent);">
+          <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 10px;">
+            <h2 style="margin: 0; font-size: 1.1em;">
+              <a href="{{ .Permalink }}" style="text-decoration: none; color: var(--foreground);">{{ .Title | markdownify }}</a>
+            </h2>
+            {{- if .Date -}}
+              <time class="post-date" style="color: var(--accent); font-size: 0.9em; white-space: nowrap;">
+                {{- partial "post-date" . -}}
+              </time>
+            {{- end -}}
+          </div>
+        </li>
+      {{ end }}
+    </ul>
+
+    {{ partial "pagination.html" . }}
+  </div>
+{{ end }}
+

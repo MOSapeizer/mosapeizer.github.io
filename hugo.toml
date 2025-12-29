@@ -3,6 +3,7 @@ languageCode = 'zh-tw'
 defaultContentLanguage = 'zh-tw'
 title = 'Mos 的個人部落格'
 theme = 'terminal'
+googleAnalytics = 'G-8WMGGZSEQW'
 
 [pagination]
   pagerSize = 5
@@ -52,3 +53,15 @@ theme = 'terminal'
       logoHomeLink = '/'
 
     [languages.zh-tw.menu]
+      [[languages.zh-tw.menu.main]]
+        identifier = "home"
+        name = "首頁"
+        url = "/"
+      [[languages.zh-tw.menu.main]]
+        identifier = "posts"
+        name = "文章列表"
+        url = "/posts/"
+      [[languages.zh-tw.menu.main]]
+        identifier = "about"
+        name = "關於我"
+        url = "/about"
