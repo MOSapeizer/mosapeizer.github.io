@@ -1,0 +1,7 @@
+[project]
+name = "book-to-post"
+version = "0.2.0"
+description = "Generate a Hugo books post using Google Books API"
+requires-python = ">=3.10"
+
+dependencies = ["requests>=2.31"]
