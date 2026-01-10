@@ -28,7 +28,7 @@ body {
     "JetBrains Mono",
     Monaco,
     Consolas,
-     "Ubuntu Mono",
+    "Ubuntu Mono",
     monospace;
   font-size: var(--font-size);
   font-weight: 400;
@@ -49,19 +49,34 @@ h1 {
   text-underline-offset: calc(var(--font-size) * 0.2);
 }
 
-h1, h2 {
+h1,
+h2 {
   text-transform: uppercase;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   display: block;
   font-size: calc(var(--font-size) * 1.1);
   letter-spacing: 0.04em;
 }
 
-h1, h2, h3, h4, h5, h6,
-p, ul, ol,
-img, figure, video,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+img,
+figure,
+video,
 table {
   margin: 25px 0;
 }
@@ -159,11 +174,9 @@ select:active {
 }
 
 select {
-  background-image: linear-gradient(
-      45deg,
+  background-image: linear-gradient(45deg,
       transparent 50%,
-      var(--foreground) 50%
-    ),
+      var(--foreground) 50%),
     linear-gradient(135deg, var(--foreground) 50%, transparent 50%);
   background-position: calc(100% - 20px), calc(100% - 15px);
   background-size:
@@ -373,8 +386,14 @@ hr {
 
 /* Bold elements */
 
-h1, h2, h3, h4, h5, h6,
-b, strong,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+b,
+strong,
 th,
 button {
   font-weight: 600;
@@ -383,4 +402,14 @@ button {
 /* Custom container class */
 .container.centered {
   margin: 0 auto;
+}
+
+.posts-list {
+  margin-left: 0;
+  list-style: none;
+  padding: 0;
+}
+
+.post .pagination {
+  margin-bottom: 1rem;
 }
