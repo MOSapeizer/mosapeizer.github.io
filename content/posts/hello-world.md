@@ -20,6 +20,4 @@ description = "因為八字排盤的啟發，決定開始寫部落格來表達�
 
 所以我決定嘗試一段時間看看。
 
-有興趣的可以到 https://www.masterhsu.com.tw/ 自己去排盤算算看
-
-
+有興趣的可以到 [八字排盤](https://www.masterhsu.com.tw/) 自己去排盤算算看
