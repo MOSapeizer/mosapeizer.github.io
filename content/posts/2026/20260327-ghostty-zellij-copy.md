@@ -19,7 +19,7 @@ hideComments = false
 
 鍵盤輸入的傳遞順序是這樣的：
 
-```
+```text
 你 → Ghostty → Zellij → Shell
 ```
 
@@ -33,7 +33,7 @@ hideComments = false
 
 在 Ghostty 的設定檔 `~/.config/ghostty/config` 加上：
 
-```
+```ini
 keybind = super+c=copy_to_clipboard
 keybind = super+v=paste_from_clipboard
 ```
@@ -58,7 +58,7 @@ macOS 的 Option 鍵預設是用來輸入特殊字元的（例如 Option+F 會�
 
 在 `~/.config/ghostty/config` 加上：
 
-```
+```ini
 macos-option-as-alt = left
 ```
 
@@ -82,7 +82,7 @@ macos-option-as-alt = left
 
 最後 `~/.config/ghostty/config` 的內容：
 
-```
+```ini
 keybind = super+c=copy_to_clipboard
 keybind = super+v=paste_from_clipboard
 macos-option-as-alt = left
